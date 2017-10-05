@@ -1,10 +1,12 @@
 import java.io.*;
 import java.util.*;
+
 class h1 {
 public static void main(String[] args) {
 	InputReader s=new InputReader(System.in);
 	int n=s.nextInt();
     int count=0;
+    HashSet<Integer> h=new HashSet<Integer>();
     HashSet<Integer> h=new HashSet<Integer>();
 	for (int i=0;i<n;i++) {
         int x=s.nextInt();
