@@ -7,6 +7,8 @@ public static void main(String[] args) {
 	int n=s.nextInt();
     int count=0;
     HashSet<Integer> h=new HashSet<Integer>();
+    int tmp=0;
+    tmp++;
 	for (int i=0;i<n;i++) {
         int x=s.nextInt();
         if(h.contains(x)){
