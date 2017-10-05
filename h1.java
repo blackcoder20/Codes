@@ -15,6 +15,7 @@ public static void main(String[] args) {
         else{
             h.add(x);
         }
+        //System.out.println(x);
     }
 	System.out.println(count);
 
