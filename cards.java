@@ -4,6 +4,7 @@ public class cards{
 public static void main(String[] args) {
 	InputReader s=new InputReader(System.in);
 	int n=s.nextInt();
+    // Hashmap 
         HashMap<Integer,Integer> h=new HashMap<Integer,Integer>();
     int sum=0;
     ArrayList<Integer> a=new ArrayList<Integer>();
